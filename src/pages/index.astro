@@ -1,0 +1,30 @@
+---
+import AppLauncher from "../components/AppLauncher/AppLauncher";
+---
+
+<nav class="navbar">
+	<div class="slot slot--start">
+		<AppLauncher client:idle />
+	</div>
+	<div class="logo"><img class="logo" src="./logo.svg" height="24" width="86" /></div>
+	<div class="slot slot--end"></div>
+</nav>
+
+<style>
+	.navbar {
+		box-sizing: border-box;
+		padding: 12px 32px;
+		background: #FFFFFF;
+		box-shadow: 0px 1px 4px rgba(97, 97, 97, 0.1), 0px 1px 2px rgba(97, 97, 97, 0.06), 0px 0px 1px rgba(97, 97, 97, 0.02);
+
+		display: flex;
+	}
+
+	.slot {
+		flex: 1;
+	}
+
+	.logo {
+		fles-grow: 1
+	}
+</style>

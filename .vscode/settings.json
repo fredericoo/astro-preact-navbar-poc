@@ -1,0 +1,32 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "jest.jestCommandLine": "pnpm test",
+  "jest.autoRun": {
+    "watch": false,
+    "onStartup": ["all-tests"],
+    "onSave": "test-src-file"
+  },
+  "jest.enableCodeLens": true,
+  "jest.testExplorer": { "enabled": true, "showInlineError": true },
+  "window.commandCenter": true,
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  }
+}
